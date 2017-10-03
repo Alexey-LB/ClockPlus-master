@@ -57,7 +57,7 @@ public final class AlarmController {
     private static final String TAG = "AlarmController";
 
     private final Context mAppContext;
-    private final View mSnackbarAnchor;
+    private final View mSnackbarAnchor;//
     // TODO: Why aren't we using AsyncAlarmsTableUpdateHandler?
     private final AlarmsTableManager mTableManager;
 
